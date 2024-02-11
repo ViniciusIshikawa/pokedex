@@ -1,3 +1,4 @@
+<poke-header></poke-header>
 <poke-search (emmitSearch)="getSearch($event)"></poke-search>
 
 <section class="list">
@@ -20,6 +21,8 @@
       </section>
     </a>
   </ng-template>
+
+  <img src="assets/error.png" alt="Fail to load pokemon's detail" width="100%" *ngIf="apiError">
 </section>
 
 
