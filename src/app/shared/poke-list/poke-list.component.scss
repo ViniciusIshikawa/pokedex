@@ -79,4 +79,26 @@ $padding: rem-calc(20);
       }
     }
   }
+
+  @media (max-width: 480px){
+    .list .pokemon {
+      width: 100%;
+
+      &__status {
+        h2 {
+          font-size: rem-calc(25);
+        }
+
+        ul li {
+          font-size: rem-calc(20);
+        }
+      }
+
+      &__image {
+        img {
+          width: rem-calc(90);
+        }
+      }
+    }
+  }
 }

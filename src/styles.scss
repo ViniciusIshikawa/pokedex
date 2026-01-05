@@ -16,3 +16,8 @@ main {
   box-sizing: border-box;
 }
 
+@media (max-width: 480px) {
+  main {
+    width: rem-calc(300);
+  }
+}
